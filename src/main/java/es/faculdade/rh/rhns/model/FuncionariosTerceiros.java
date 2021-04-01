@@ -5,5 +5,6 @@ import lombok.Data;
 @Data
 public class FuncionariosTerceiros {
 
-
+	private EmpresasTerceirizadas empresasTerceirizadas;
+	private String nomeDoProfissionais;
 }

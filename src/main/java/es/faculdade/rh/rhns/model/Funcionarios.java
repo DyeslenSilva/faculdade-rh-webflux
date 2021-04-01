@@ -9,5 +9,6 @@ public class Funcionarios {
 	private String cpf;
 	private String cnpj;
 	private String nomeDoFuncionario;
-	
+	private Double salario;
+	private Contratos contratos;
 }
