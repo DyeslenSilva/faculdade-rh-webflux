@@ -11,4 +11,6 @@ public class Funcionarios {
 	private String nomeDoFuncionario;
 	private Double salario;
 	private Contratos contratos;
+	private String cargo;
+	private String senioridade;
 }
