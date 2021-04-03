@@ -1,4 +1,4 @@
-package es.faculdade.rh.rhns.contratos.clt;
+package es.faculdade.rh.rhns.contratos.clt.model;
 
 import javax.persistence.Id;
 

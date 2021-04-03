@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import es.faculdade.rh.rhns.contratos.clt.RHContratos;
+import es.faculdade.rh.rhns.contratos.clt.model.RHContratos;
 import es.faculdade.rh.rhns.contratos.clt.repo.RHContratosRepo;
 import es.faculdade.rh.rhns.contratos.model.ContratoCLT;
 import es.faculdade.rh.rhns.repo.ContratoRepo;

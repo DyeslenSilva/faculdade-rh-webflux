@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import es.faculdade.rh.rhns.contratos.clt.SecretariaContratos;
+import es.faculdade.rh.rhns.contratos.clt.model.SecretariaContratos;
 import es.faculdade.rh.rhns.contratos.clt.repo.SecContratosRepo;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
