@@ -1,4 +1,4 @@
-package es.faculdade.rh.rhns.contratos.pj;
+package es.faculdade.rh.rhns.contratos.pj.model;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
