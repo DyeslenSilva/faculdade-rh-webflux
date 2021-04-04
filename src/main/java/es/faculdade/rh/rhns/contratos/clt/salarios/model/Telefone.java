@@ -10,5 +10,6 @@ public class Telefone implements  Serializable{
 	private Integer idTelefone;
 	private String codigoArea;
 	private String nome;
+	private String numero;
 	
 }
