@@ -21,12 +21,4 @@ public class CartaoDeCreditoComponent {
 	
 	
 	
-	public CreditCardBuilder toCreditCardBuilder(CartaoDeCredito cartaoDeCredito,
-			Pagamento pagamento) {
-		return new CreditCardBuilder()
-				.withBillingAddress(
-						);
-				
-				
-	}
 }
