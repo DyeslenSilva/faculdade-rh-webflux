@@ -15,6 +15,9 @@ public class Pagamento implements Serializable{
 	private BigDecimal salario;
 	private String referencia;
 	private Remetente remetente;
+	private Remessa remessa;
 	private List<Trabalho> trabalhos;
 	private CartaoDeCredito cartaoDeCredito;
+	private String modoDePagamento;
+	private Integer mesSalario;
 }

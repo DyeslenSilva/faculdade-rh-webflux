@@ -16,5 +16,7 @@ public class CartaoDeCredito implements Serializable {
 	private String token;
 	
 	private Titular titular;
-	private SalarioMes mes;
+	private SalarioMes salarioMes;
+	private Endereco endereco;
+	//private SalarioMes salarioMes
 }

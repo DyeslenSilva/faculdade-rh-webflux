@@ -10,8 +10,8 @@ public class RemetenteComponent {
 
 	private TelefoneComponent telefoneComponent;
 	
-	@SuppressWarnings("unused")
-	private SenderBuilder toSenderBuilder(Remetente remetente) {
+	//@SuppressWarnings("unused")
+	public SenderBuilder toSenderBuilder(Remetente remetente) {
 		return new SenderBuilder()
 				.withEmail(remetente.getEmail())
 				.withName(remetente.getNome())
