@@ -13,12 +13,16 @@ import lombok.Data;
 public class CartaoDeCreditoComponent {
 
 	private EnderecoComponent enderecoComponent;
-	
 	private TitularComponent titularComponent;
+	private PagamentoComponent pagamentoComponent;	
+
 	
-	private PagamentoComponent pagamentoComponent;
-	
-	
-	
-	
-}
+	public CreditCardBuilder toCreditCardBuilder(CartaoDeCredito cartaoDeCredito) {
+		return new CreditCardBuilder()
+				.withBillingAddress(
+						enderecoComponent.toAddressBuilder(cartaoDeCredito.getEndereco()))
+				.withInstallment(pagamentoComponent.toInstallmentBuilder(cartaoDeCredito.getSalario()))
+				.withHolder(titularComponent.toHolderBuilder(cartaoDeCredito.getTitular()))
+				.withToken(cartaoDeCredito.getToken());
+	}
+	}
